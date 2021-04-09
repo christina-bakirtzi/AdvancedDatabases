@@ -1,0 +1,221 @@
+21/03/12 17:58:55 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/03/12 17:58:56 INFO spark.SparkContext: Running Spark version 2.4.4
+21/03/12 17:58:56 INFO spark.SparkContext: Submitted application: q2_rdd
+21/03/12 17:58:57 INFO spark.SecurityManager: Changing view acls to: user
+21/03/12 17:58:57 INFO spark.SecurityManager: Changing modify acls to: user
+21/03/12 17:58:57 INFO spark.SecurityManager: Changing view acls groups to: 
+21/03/12 17:58:57 INFO spark.SecurityManager: Changing modify acls groups to: 
+21/03/12 17:58:57 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(user); groups with view permissions: Set(); users  with modify permissions: Set(user); groups with modify permissions: Set()
+21/03/12 17:58:57 INFO util.Utils: Successfully started service 'sparkDriver' on port 33024.
+21/03/12 17:58:57 INFO spark.SparkEnv: Registering MapOutputTracker
+21/03/12 17:58:57 INFO spark.SparkEnv: Registering BlockManagerMaster
+21/03/12 17:58:57 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/03/12 17:58:57 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/03/12 17:58:57 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-cf1f64a7-8b71-47c1-a599-52b2634f2302
+21/03/12 17:58:57 INFO memory.MemoryStore: MemoryStore started with capacity 93.3 MB
+21/03/12 17:58:57 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+21/03/12 17:58:57 INFO util.log: Logging initialized @2977ms
+21/03/12 17:58:57 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+21/03/12 17:58:57 INFO server.Server: Started @3070ms
+21/03/12 17:58:57 INFO server.AbstractConnector: Started ServerConnector@b815f19{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+21/03/12 17:58:57 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4d5165b4{/jobs,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3e02505f{/jobs/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ea6327a{/jobs/job,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4dec243b{/jobs/job/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@61c00571{/stages,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e0aced1{/stages/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6638cea6{/stages/stage,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@63e7b3ec{/stages/stage/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@430a1cc8{/stages/pool,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@46cb93cc{/stages/pool/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@71cf2c80{/storage,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2f699986{/storage/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3c962cff{/storage/rdd,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@26598d52{/storage/rdd/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2e7a1e35{/environment,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4dbc17d5{/environment/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@40c03b49{/executors,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2a990d1e{/executors/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@54ec25ce{/executors/threadDump,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@79439239{/executors/threadDump/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3898e42b{/static,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5063aa04{/,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5fa29de9{/api,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2ea229c3{/jobs/job/kill,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6374aea0{/stages/stage/kill,null,AVAILABLE,@Spark}
+21/03/12 17:58:57 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://master:4040
+21/03/12 17:58:57 INFO client.StandaloneAppClient$ClientEndpoint: Connecting to master spark://master:7077...
+21/03/12 17:58:57 INFO client.TransportClientFactory: Successfully created connection to master/192.168.0.1:7077 after 43 ms (0 ms spent in bootstraps)
+21/03/12 17:58:58 INFO cluster.StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20210312175858-0425
+21/03/12 17:58:58 INFO client.StandaloneAppClient$ClientEndpoint: Executor added: app-20210312175858-0425/0 on worker-20210308153342-192.168.0.1-43978 (192.168.0.1:43978) with 2 core(s)
+21/03/12 17:58:58 INFO cluster.StandaloneSchedulerBackend: Granted executor ID app-20210312175858-0425/0 on hostPort 192.168.0.1:43978 with 2 core(s), 3.0 GB RAM
+21/03/12 17:58:58 INFO client.StandaloneAppClient$ClientEndpoint: Executor added: app-20210312175858-0425/1 on worker-20210308153342-192.168.0.2-41907 (192.168.0.2:41907) with 2 core(s)
+21/03/12 17:58:58 INFO cluster.StandaloneSchedulerBackend: Granted executor ID app-20210312175858-0425/1 on hostPort 192.168.0.2:41907 with 2 core(s), 3.0 GB RAM
+21/03/12 17:58:58 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40882.
+21/03/12 17:58:58 INFO netty.NettyBlockTransferService: Server created on master:40882
+21/03/12 17:58:58 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/03/12 17:58:58 INFO client.StandaloneAppClient$ClientEndpoint: Executor updated: app-20210312175858-0425/0 is now RUNNING
+21/03/12 17:58:58 INFO client.StandaloneAppClient$ClientEndpoint: Executor updated: app-20210312175858-0425/1 is now RUNNING
+21/03/12 17:58:58 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, master, 40882, None)
+21/03/12 17:58:58 INFO storage.BlockManagerMasterEndpoint: Registering block manager master:40882 with 93.3 MB RAM, BlockManagerId(driver, master, 40882, None)
+21/03/12 17:58:58 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, master, 40882, None)
+21/03/12 17:58:58 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, master, 40882, None)
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3cd7dd5b{/metrics/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:58 INFO cluster.StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+21/03/12 17:58:58 INFO internal.SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/user/code/spark-warehouse/').
+21/03/12 17:58:58 INFO internal.SharedState: Warehouse path is 'file:/home/user/code/spark-warehouse/'.
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1774af82{/SQL,null,AVAILABLE,@Spark}
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5868ceef{/SQL/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4cbd3bfe{/SQL/execution,null,AVAILABLE,@Spark}
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c959381{/SQL/execution/json,null,AVAILABLE,@Spark}
+21/03/12 17:58:58 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2564dc62{/static/sql,null,AVAILABLE,@Spark}
+21/03/12 17:58:59 INFO state.StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+21/03/12 17:59:00 INFO cluster.CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.0.2:44350) with ID 1
+21/03/12 17:59:00 INFO storage.BlockManagerMasterEndpoint: Registering block manager 192.168.0.2:40680 with 1458.6 MB RAM, BlockManagerId(1, 192.168.0.2, 40680, None)
+21/03/12 17:59:01 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 239.4 KB, free 93.1 MB)
+21/03/12 17:59:01 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.1 KB, free 93.0 MB)
+21/03/12 17:59:01 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on master:40882 (size: 23.1 KB, free: 93.3 MB)
+21/03/12 17:59:01 INFO spark.SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+21/03/12 17:59:01 INFO cluster.CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (83.212.74.74:36420) with ID 0
+21/03/12 17:59:02 INFO storage.BlockManagerMasterEndpoint: Registering block manager 192.168.0.1:38911 with 1458.6 MB RAM, BlockManagerId(0, 192.168.0.1, 38911, None)
+21/03/12 17:59:02 INFO mapred.FileInputFormat: Total input paths to process : 1
+21/03/12 17:59:02 INFO spark.SparkContext: Starting job: collect at /home/user/code/q2_rdd.py:27
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Registering RDD 3 (reduceByKey at /home/user/code/q2_rdd.py:15)
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Registering RDD 7 (reduceByKey at /home/user/code/q2_rdd.py:17)
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Got job 0 (collect at /home/user/code/q2_rdd.py:27) with 11 output partitions
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Final stage: ResultStage 2 (collect at /home/user/code/q2_rdd.py:27)
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /home/user/code/q2_rdd.py:15), which has no missing parents
+21/03/12 17:59:02 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 10.7 KB, free 93.0 MB)
+21/03/12 17:59:02 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.9 KB, free 93.0 MB)
+21/03/12 17:59:02 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on master:40882 (size: 6.9 KB, free: 93.3 MB)
+21/03/12 17:59:02 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1161
+21/03/12 17:59:02 INFO scheduler.DAGScheduler: Submitting 11 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /home/user/code/q2_rdd.py:15) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+21/03/12 17:59:02 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 11 tasks
+21/03/12 17:59:02 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 192.168.0.2, executor 1, partition 0, ANY, 7888 bytes)
+21/03/12 17:59:02 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, 192.168.0.1, executor 0, partition 1, ANY, 7888 bytes)
+21/03/12 17:59:02 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, 192.168.0.2, executor 1, partition 2, ANY, 7888 bytes)
+21/03/12 17:59:02 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, 192.168.0.1, executor 0, partition 3, ANY, 7888 bytes)
+21/03/12 17:59:03 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.0.1:38911 (size: 6.9 KB, free: 1458.6 MB)
+21/03/12 17:59:03 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.0.2:40680 (size: 6.9 KB, free: 1458.6 MB)
+21/03/12 17:59:03 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.0.1:38911 (size: 23.1 KB, free: 1458.6 MB)
+21/03/12 17:59:03 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.0.2:40680 (size: 23.1 KB, free: 1458.6 MB)
+21/03/12 17:59:16 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, 192.168.0.1, executor 0, partition 4, ANY, 7888 bytes)
+21/03/12 17:59:16 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 14179 ms on 192.168.0.1 (executor 0) (1/11)
+21/03/12 17:59:16 INFO python.PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 51109
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, 192.168.0.1, executor 0, partition 5, ANY, 7888 bytes)
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 14441 ms on 192.168.0.1 (executor 0) (2/11)
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, 192.168.0.2, executor 1, partition 6, ANY, 7888 bytes)
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 14586 ms on 192.168.0.2 (executor 1) (3/11)
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, 192.168.0.2, executor 1, partition 7, ANY, 7888 bytes)
+21/03/12 17:59:17 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 14680 ms on 192.168.0.2 (executor 1) (4/11)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, 192.168.0.1, executor 0, partition 8, ANY, 7888 bytes)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 11050 ms on 192.168.0.1 (executor 0) (5/11)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, 192.168.0.2, executor 1, partition 9, ANY, 7888 bytes)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 10911 ms on 192.168.0.2 (executor 1) (6/11)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, 192.168.0.2, executor 1, partition 10, ANY, 7888 bytes)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 10892 ms on 192.168.0.2 (executor 1) (7/11)
+21/03/12 17:59:28 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 11457 ms on 192.168.0.1 (executor 0) (8/11)
+21/03/12 17:59:34 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 0.0 (TID 10) in 6340 ms on 192.168.0.2 (executor 1) (9/11)
+21/03/12 17:59:38 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 10224 ms on 192.168.0.1 (executor 0) (10/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 11073 ms on 192.168.0.2 (executor 1) (11/11)
+21/03/12 17:59:39 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: ShuffleMapStage 0 (reduceByKey at /home/user/code/q2_rdd.py:15) finished in 36.709 s
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: looking for newly runnable stages
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: running: Set()
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: waiting: Set(ShuffleMapStage 1, ResultStage 2)
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: failed: Set()
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 1 (PairwiseRDD[7] at reduceByKey at /home/user/code/q2_rdd.py:17), which has no missing parents
+21/03/12 17:59:39 INFO memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 10.4 KB, free 93.0 MB)
+21/03/12 17:59:39 INFO memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 6.7 KB, free 93.0 MB)
+21/03/12 17:59:39 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on master:40882 (size: 6.7 KB, free: 93.3 MB)
+21/03/12 17:59:39 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+21/03/12 17:59:39 INFO scheduler.DAGScheduler: Submitting 11 missing tasks from ShuffleMapStage 1 (PairwiseRDD[7] at reduceByKey at /home/user/code/q2_rdd.py:17) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+21/03/12 17:59:39 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 11 tasks
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 11, 192.168.0.1, executor 0, partition 0, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 1.0 (TID 12, 192.168.0.2, executor 1, partition 1, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 1.0 (TID 13, 192.168.0.1, executor 0, partition 2, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 1.0 (TID 14, 192.168.0.2, executor 1, partition 3, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.0.1:38911 (size: 6.7 KB, free: 1458.6 MB)
+21/03/12 17:59:39 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.0.2:40680 (size: 6.7 KB, free: 1458.6 MB)
+21/03/12 17:59:39 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 83.212.74.74:36420
+21/03/12 17:59:39 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 192.168.0.2:44350
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 1.0 (TID 15, 192.168.0.2, executor 1, partition 4, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 1.0 (TID 12) in 266 ms on 192.168.0.2 (executor 1) (1/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 1.0 (TID 16, 192.168.0.2, executor 1, partition 5, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 1.0 (TID 15) in 134 ms on 192.168.0.2 (executor 1) (2/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 1.0 (TID 17, 192.168.0.1, executor 0, partition 6, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 1.0 (TID 13) in 404 ms on 192.168.0.1 (executor 0) (3/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 1.0 (TID 18, 192.168.0.1, executor 0, partition 7, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 11) in 409 ms on 192.168.0.1 (executor 0) (4/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 1.0 (TID 19, 192.168.0.2, executor 1, partition 8, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 1.0 (TID 14) in 477 ms on 192.168.0.2 (executor 1) (5/11)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 1.0 (TID 20, 192.168.0.1, executor 0, partition 9, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:39 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 1.0 (TID 18) in 197 ms on 192.168.0.1 (executor 0) (6/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 1.0 (TID 21, 192.168.0.1, executor 0, partition 10, NODE_LOCAL, 7655 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 1.0 (TID 17) in 219 ms on 192.168.0.1 (executor 0) (7/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 1.0 (TID 19) in 211 ms on 192.168.0.2 (executor 1) (8/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 1.0 (TID 16) in 290 ms on 192.168.0.2 (executor 1) (9/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 1.0 (TID 20) in 202 ms on 192.168.0.1 (executor 0) (10/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 1.0 (TID 21) in 233 ms on 192.168.0.1 (executor 0) (11/11)
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: ShuffleMapStage 1 (reduceByKey at /home/user/code/q2_rdd.py:17) finished in 0.869 s
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: looking for newly runnable stages
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: running: Set()
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: waiting: Set(ResultStage 2)
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: failed: Set()
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: Submitting ResultStage 2 (PythonRDD[10] at collect at /home/user/code/q2_rdd.py:27), which has no missing parents
+21/03/12 17:59:40 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/03/12 17:59:40 INFO memory.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 8.0 KB, free 93.0 MB)
+21/03/12 17:59:40 INFO memory.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.1 KB, free 93.0 MB)
+21/03/12 17:59:40 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on master:40882 (size: 5.1 KB, free: 93.3 MB)
+21/03/12 17:59:40 INFO spark.SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1161
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: Submitting 11 missing tasks from ResultStage 2 (PythonRDD[10] at collect at /home/user/code/q2_rdd.py:27) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+21/03/12 17:59:40 INFO scheduler.TaskSchedulerImpl: Adding task set 2.0 with 11 tasks
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 2.0 (TID 22, 192.168.0.2, executor 1, partition 1, NODE_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 23, 192.168.0.2, executor 1, partition 0, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 2.0 (TID 24, 192.168.0.1, executor 0, partition 2, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 2.0 (TID 25, 192.168.0.1, executor 0, partition 3, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.0.1:38911 (size: 5.1 KB, free: 1458.6 MB)
+21/03/12 17:59:40 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.0.2:40680 (size: 5.1 KB, free: 1458.6 MB)
+21/03/12 17:59:40 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 83.212.74.74:36420
+21/03/12 17:59:40 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 192.168.0.2:44350
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 2.0 (TID 26, 192.168.0.1, executor 0, partition 4, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 2.0 (TID 25) in 67 ms on 192.168.0.1 (executor 0) (1/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 2.0 (TID 27, 192.168.0.2, executor 1, partition 5, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 23) in 80 ms on 192.168.0.2 (executor 1) (2/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 2.0 (TID 28, 192.168.0.2, executor 1, partition 6, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 2.0 (TID 22) in 94 ms on 192.168.0.2 (executor 1) (3/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 2.0 (TID 29, 192.168.0.1, executor 0, partition 7, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 2.0 (TID 24) in 110 ms on 192.168.0.1 (executor 0) (4/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 2.0 (TID 30, 192.168.0.2, executor 1, partition 8, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 2.0 (TID 27) in 63 ms on 192.168.0.2 (executor 1) (5/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 2.0 (TID 31, 192.168.0.1, executor 0, partition 9, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 2.0 (TID 26) in 88 ms on 192.168.0.1 (executor 0) (6/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 2.0 (TID 32, 192.168.0.2, executor 1, partition 10, PROCESS_LOCAL, 7666 bytes)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 2.0 (TID 28) in 82 ms on 192.168.0.2 (executor 1) (7/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 2.0 (TID 29) in 95 ms on 192.168.0.1 (executor 0) (8/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 2.0 (TID 30) in 76 ms on 192.168.0.2 (executor 1) (9/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 2.0 (TID 32) in 65 ms on 192.168.0.2 (executor 1) (10/11)
+21/03/12 17:59:40 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 2.0 (TID 31) in 89 ms on 192.168.0.1 (executor 0) (11/11)
+21/03/12 17:59:40 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: ResultStage 2 (collect at /home/user/code/q2_rdd.py:27) finished in 0.261 s
+21/03/12 17:59:40 INFO scheduler.DAGScheduler: Job 0 finished: collect at /home/user/code/q2_rdd.py:27, took 37.936701 s
+21/03/12 17:59:40 INFO spark.SparkContext: Invoking stop() from shutdown hook
+21/03/12 17:59:40 INFO server.AbstractConnector: Stopped Spark@b815f19{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+21/03/12 17:59:40 INFO ui.SparkUI: Stopped Spark web UI at http://master:4040
+21/03/12 17:59:40 INFO cluster.StandaloneSchedulerBackend: Shutting down all executors
+21/03/12 17:59:40 INFO cluster.CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+21/03/12 17:59:40 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/03/12 17:59:40 WARN nio.NioEventLoop: Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@77c44e9.
+21/03/12 17:59:40 INFO nio.NioEventLoop: Migrated 2 channel(s) to the new Selector.
+21/03/12 17:59:40 INFO memory.MemoryStore: MemoryStore cleared
+21/03/12 17:59:40 INFO storage.BlockManager: BlockManager stopped
+21/03/12 17:59:40 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+21/03/12 17:59:40 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/03/12 17:59:40 INFO spark.SparkContext: Successfully stopped SparkContext
+21/03/12 17:59:40 INFO util.ShutdownHookManager: Shutdown hook called
+21/03/12 17:59:40 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-a6f5ea7b-0a5f-4b31-a06d-f6cce7f46450/pyspark-b228f660-5b4c-4025-b1df-7fb86fd0245e
+21/03/12 17:59:40 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-7e086abc-1f5f-4d46-8b39-87b320ee9917
+21/03/12 17:59:40 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-a6f5ea7b-0a5f-4b31-a06d-f6cce7f46450
